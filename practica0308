@@ -1,0 +1,11 @@
+import time
+time.strftime("%Y-%m-%d %H:%M:%S") 
+'2010-08-10 18:01:17'
+
+int factorial(int x)
+{
+    if (x == 0)
+        return 1;
+    else
+        return x * factorial(x - 1);
+}
